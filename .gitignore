@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tar
+*.tar.part*
+enlight-website.tar*
+extract-site.cmd
+
+# Over GitHub's 100 MB file limit; kept in this folder for local viewing.
+# See README.md for how to publish the site without this file, or with Git LFS.
+videos/narada-promo.mp4
