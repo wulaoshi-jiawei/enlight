@@ -38,10 +38,7 @@ git push -u origin main
 
 ## 大视频文件说明
 
-`videos/narada-promo.mp4` 约 131 MB，超过 GitHub 单文件 100 MB 的限制，所以它留在本文件夹里供本地浏览，但默认不会被 `git add` 进仓库。君澜页面上的这段影片，发布到 GitHub Pages 后需要二选一：
-
-- 用 [Git LFS](https://git-lfs.com/) 跟踪该文件后再推送（免费版 GitHub Pages 对 LFS 文件的支持有限，页面里有时无法播放）；或
-- 把该视频放到对象存储或其他可公开访问的地址，再改网页里的链接。
+`videos/narada-promo.mp4` 已压缩到约 94 MB（仍为 720p），可随仓库发布到 GitHub Pages，并在页面中直接播放。未压缩的原片约 131 MB，如仍留在本文件夹，文件名为 `videos/narada-promo-original.mp4`，不会被提交到仓库。
 
 ## 说明
 
